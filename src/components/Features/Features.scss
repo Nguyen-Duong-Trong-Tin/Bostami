@@ -1,0 +1,48 @@
+.features {
+  padding: 80px 0;
+  background-color: #000000;
+
+  &__box-head {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  &__title-head {
+    font-size: 48px;
+    color: var(--color-one);
+  }
+
+  &__box {
+    background-color: var(--color-three);
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  &__inner-logo {
+    margin-bottom: 30px;
+
+    & img {
+      width: 35%;
+      border-radius: 30px;
+    }
+  }
+
+  &__title {
+    color: #ffffff;
+  }
+
+  &__desc {
+    text-align: justify;
+    height: 250px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .features {
+
+    &__title-head {
+      font-size: 36px;
+    }
+  }
+}

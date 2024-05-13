@@ -1,15 +1,15 @@
+import Download from "../../components/Download";
 import Footer from "../../components/Footer";
 import HeaderLink from "../../components/HeaderLink";
-import MyCV from "../../components/MyCV";
 
-function About() {
+function Layout() {
   return (
     <>
       <HeaderLink />
-      <MyCV />
+      <Download />
       <Footer />
     </>
   )
 }
 
-export default About;
+export default Layout;

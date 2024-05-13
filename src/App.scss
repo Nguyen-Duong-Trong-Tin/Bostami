@@ -3,6 +3,9 @@
 :root {
   --color-one: #EB4F50;
   --color-two: #1B74E4;
+  --color-three: #1E293B;
+  --color-four: #FFF4F4;
+  --color-five: #EEF5FA;
 
   --color-text: #A6A6A6;
 
@@ -10,8 +13,14 @@
 }
 
 body {
-  font-family: var(--font);
-  color: var(--color-text);
+  font-family: var(--font) !important;
+  color: var(--color-text) !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Button */
